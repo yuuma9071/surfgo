@@ -1,0 +1,7 @@
+mc = Minecraft.create(port=param.PORT_MC)
+mc.postToChat('Hello Minecraft Java Edition 1.16.5')
+mc.setBlocks(-5, 63, 5,  4, 63, 14,  param.GOLD_BLOCK)
+mc.setBlocks(-4, 64, 4,  3, 64, 13,  param.GOLD_BLOCK)
+mc.setblocks(-3, 65, 3,  2, 65, 12,  param.GOLD_BLOCK)
+mc.setblocks(-2, 66, 2,  1, 66, 11,  param.GOLD_BLOCK)
+mc.setblocks(-1, 67, 1,  0, 66, 10,  param.GOLD_BLOCK)
